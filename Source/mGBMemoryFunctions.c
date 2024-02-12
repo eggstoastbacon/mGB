@@ -1,5 +1,5 @@
 
-void saveDataSet(UBYTE synth)
+void saveToSRAM() {
 {
     ENABLE_RAM_MBC1;
 	x = (synth + 24U);
